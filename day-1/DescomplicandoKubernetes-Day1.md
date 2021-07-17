@@ -231,6 +231,8 @@ Após isso, vamos instalar o ``kubectl`` com os seguintes comandos.
 ```
 curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
 
+cd /usr/local/bin/kubectl
+
 chmod +x ./kubectl
 
 sudo mv ./kubectl /usr/local/bin/kubectl
